@@ -1,6 +1,17 @@
-# <a href="https://github.com/xCollateral/VulkanMod"> <img src="./src/main/resources/assets/vulkanmod/Vlogo.png" width="30" height="30"/> </a> VulkanMod
+# <a href="https://github.com/xCollateral/VulkanMod"> <img src="./src/main/resources/assets/vulkanmod/Vlogo.png" width="30" height="30"/> </a> VulkanMod (DynamicFox Fork)
 
-This is a fabric mod that introduces a brand new **Vulkan** based voxel rendering engine to **Minecraft java** in order to both replace the default OpenGL renderer and bring performance improvements.
+This is a fabric mod that introduces a brand new **Vulkan** based voxel rendering engine to **Minecraft Java** in order to both replace the default OpenGL renderer and bring performance improvements.
+
+Also, it now adds a **DynamicFox**.  
+Yes, really.  
+Blame [TryDkg.wtf](https://trydkg.wtf) for the typo that started it all:  
+> *"When dynamic fox setting in vulcan mod"*
+
+## 🦊 What is DynamicFox?
+
+A typo. A prophecy. A new entity.  
+This fork does **not** add DynamicFog. It adds something far more powerful: the **DynamicFox**.  
+It’s fast. It’s mysterious. It’s probably judging your render pipeline.
 
 ### Why?
 - Highly experimental project that overhauls and modernizes the internal renderer for Minecraft. <br>
@@ -8,6 +19,7 @@ This is a fabric mod that introduces a brand new **Vulkan** based voxel renderin
 - Provides a potential reference for a future-proof Vulkan codebase for Minecraft Java. <br>
 - Utilizes the VulkanAPI to allow for capabilities not always possible with OpenGL. <br>
 - Including reduced CPU Overhead and use of newer, modern hardware capabilities. <br>
+- Also includes a **fox**. A dynamic one. 🦊
 
 ### Demonstration Video:
 
@@ -15,6 +27,7 @@ This is a fabric mod that introduces a brand new **Vulkan** based voxel renderin
 
 ## FAQ
 - Remember to check the [Wiki](https://github.com/xCollateral/VulkanMod/wiki) we wrote before asking for support!
+- No, the fox is not in the wiki. It defies documentation.
 
 ## Installation
 
@@ -28,8 +41,9 @@ This is a fabric mod that introduces a brand new **Vulkan** based voxel renderin
 
 ### Install guide:
 >1) Install the [fabric modloader](https://fabricmc.net).
->1) Download and put the `Vulkanmod.jar` file into `.minecraft/mods`
->1) Enjoy !
+>2) Download and put the `Vulkanmod.jar` file into `.minecraft/mods`
+>3) Enjoy!
+>4) Watch out for foxes.
 
 ## Useful links
 <table>
@@ -51,7 +65,6 @@ This is a fabric mod that introduces a brand new **Vulkan** based voxel renderin
   </tr>
 </table>
 
-
 ## Features
 
 ### Optimizations:
@@ -69,9 +82,16 @@ This is a fabric mod that introduces a brand new **Vulkan** based voxel renderin
 >- [x] Resizable render frame queue
 >- [ ] Shader support
 >- [ ] Removed Herobrine
-
+>- [x] **Added DynamicFox** (thanks TryDkg.wtf)
 
 ## Notes
 - This mod is still in development, please report issues in the [issue tab](https://github.com/xCollateral/VulkanMod/issues) with logs attached!
-- This mode isn't just "minecraft on vulkan" (e.g: [zink](https://docs.mesa3d.org/drivers/zink.html) ), it is a full rewrite of the minecraft renderer.
+- This mod isn't just "Minecraft on Vulkan" (e.g: [zink](https://docs.mesa3d.org/drivers/zink.html) ), it is a full rewrite of the Minecraft renderer.
+- Also, there's a fox now. It’s dynamic. Don’t ask how. Just accept it.
+- ⚠️ **If your issue involves the DynamicFox, do NOT bother xCollateral.**  
+  That chaos was unleashed by **CodedByDuke**, not the original author.  
+  All fox-related bugs, existential crises, and typo-induced anomalies should be directed to me.
 
+---
+
+> “You asked for fog. You got a fox. That’s on you.”
